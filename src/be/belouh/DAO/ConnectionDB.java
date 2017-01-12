@@ -5,9 +5,9 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class ConnectionDB {
-	private static String url = "jdbc:oracle:thin:@localhost:1521:xe";
-	private static String user = "TESTPROJETJAVAEE";
-	private static String passwd = "pwd";
+	private static String url = "jdbc:oracle:thin:@char-oracle11.condorcet.be:1521:xe";
+	private static String user = "exa4";
+	private static String passwd = "elephantsflagadas";
 	private static Connection connect = null;
 
 	private ConnectionDB() {
